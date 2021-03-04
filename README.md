@@ -1,6 +1,5 @@
 # Encryption-Device-Driver
 
-1 Introduction
 In this Repo I implemented an encryption device driver using a kernel module.
 The module uses simple XOR cipher to implement an encrypted buffer.
 Each device file has an associated in-memory buffer, such that read and write operations can be encrypted or decrypted according to an encryption key.
